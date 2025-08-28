@@ -1,5 +1,8 @@
 {
   "aquifers_enabled": false,
+  "disable_mob_generation": false,
+  "legacy_random_source": false,
+  "ore_veins_enabled": false,
   "default_block": {
     "Name": "minecraft:netherrack"
   },
@@ -9,8 +12,7 @@
       "level": "0"
     }
   },
-  "disable_mob_generation": false,
-  "legacy_random_source": false,
+  "sea_level": 32,
   "noise": {
     "height": 128,
     "min_y": 0,
@@ -34,8 +36,6 @@
     "vein_ridged": "vast_vistas_otherview:nether/vein/ridged",
     "vein_toggle": "vast_vistas_otherview:nether/vein/toggle"
   },
-  "ore_veins_enabled": false,
-  "sea_level": 32,
   "spawn_target": [],
   "surface_rule": {
     "type": "minecraft:sequence",
