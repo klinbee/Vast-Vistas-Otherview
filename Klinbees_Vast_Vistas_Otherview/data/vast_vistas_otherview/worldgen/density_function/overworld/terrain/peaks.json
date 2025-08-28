@@ -1,10 +1,6 @@
 {
   "type": "minecraft:mul",
-  "argument1": {
-    "type": "minecraft:mul",
-    "argument1": "vast_vistas_otherview:overworld/terrain/jaggedness",
-    "argument2": 1
-  },
+  "argument1": "vast_vistas_otherview:overworld/terrain/jaggedness",
   "argument2": {
     "type": "minecraft:half_negative",
     "argument": {

@@ -1,4 +1,5 @@
 {
+  "": "Erosion with less shifting applied, so terrain retains smoothness",
   "type": "minecraft:flat_cache",
   "argument": {
     "type": "minecraft:cache_2d",

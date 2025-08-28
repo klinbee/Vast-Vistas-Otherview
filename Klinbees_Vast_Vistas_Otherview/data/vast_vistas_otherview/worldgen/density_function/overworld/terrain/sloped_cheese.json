@@ -5,7 +5,11 @@
     "argument1": {
       "type": "minecraft:add",
       "argument1": "vast_vistas_otherview:overworld/depth",
-      "argument2": "vast_vistas_otherview:overworld/terrain/peaks"
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "vast_vistas_otherview:overworld/terrain/dunes",
+        "argument2": "vast_vistas_otherview:overworld/terrain/peaks"
+      }
     },
     "argument2": "vast_vistas_otherview:overworld/terrain/windswept"
   }

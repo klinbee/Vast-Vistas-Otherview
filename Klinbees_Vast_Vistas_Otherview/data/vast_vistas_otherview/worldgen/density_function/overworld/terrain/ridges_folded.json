@@ -15,7 +15,7 @@
             "argument1": -0.6666666666666666,
             "argument2": {
               "type": "minecraft:abs",
-              "argument": "vast_vistas_otherview:overworld/terrain/biomes/ridges"
+              "argument": "vast_vistas_otherview:overworld/terrain/ridges"
             }
           }
         }

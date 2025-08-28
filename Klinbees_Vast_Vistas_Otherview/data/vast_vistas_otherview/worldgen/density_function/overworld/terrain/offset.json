@@ -3,1949 +3,1926 @@
   "argument": {
     "type": "minecraft:cache_2d",
     "argument": {
-      "type": "minecraft:add",
+      "type": "minecraft:mul",
       "argument1": {
-        "type": "minecraft:mul",
-        "argument1": {
-          "type": "minecraft:blend_offset"
-        },
+        "type": "minecraft:add",
+        "argument1": -0.5037500262260437,
         "argument2": {
-          "type": "minecraft:add",
-          "argument1": 1,
-          "argument2": {
-            "type": "minecraft:mul",
-            "argument1": -1,
-            "argument2": {
-              "type": "minecraft:cache_once",
-              "argument": {
-                "type": "minecraft:blend_alpha"
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "vast_vistas_otherview:overworld/continents",
+            "points": [
+              {
+                "location": -1.5,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/ridges_folded",
+                  "points": [
+                    {
+                      "location": -1,
+                      "derivative": 0,
+                      "value": 0.2
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 0,
+                      "value": 0.33
+                    }
+                  ]
+                },
+                "derivative": -0.2
+              },
+              {
+                "location": -1.065,
+                "value": -0.011,
+                "derivative": -1.6
+              },
+              {
+                "location": -1.04,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/ridges_folded",
+                  "points": [
+                    {
+                      "location": -1,
+                      "derivative": 0,
+                      "value": -0.375
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 0,
+                      "value": -0.3
+                    }
+                  ]
+                }
+              },
+              {
+                "location": -0.8,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/ridges_folded",
+                  "points": [
+                    {
+                      "location": -1,
+                      "derivative": 0,
+                      "value": -0.375
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 0,
+                      "value": -0.3
+                    }
+                  ]
+                }
+              },
+              {
+                "location": -0.51,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/ridges_folded",
+                  "points": [
+                    {
+                      "location": -1,
+                      "derivative": 0,
+                      "value": -0.3
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 0,
+                      "value": -0.25
+                    }
+                  ]
+                }
+              },
+              {
+                "location": -0.44,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/ridges_folded",
+                  "points": [
+                    {
+                      "location": -1,
+                      "derivative": 0,
+                      "value": -0.3
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 0,
+                      "value": -0.25
+                    }
+                  ]
+                }
+              },
+              {
+                "location": -0.21,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/ridges_folded",
+                  "points": [
+                    {
+                      "location": -1,
+                      "derivative": 0,
+                      "value": -0.2222
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 0,
+                      "value": -0.15
+                    }
+                  ]
+                }
+              },
+              {
+                "location": -0.155,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/erosion",
+                  "points": [
+                    {
+                      "location": -0.4,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.221,
+                            "value": 0.05,
+                            "derivative": 0.2
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 0.1,
+                            "derivative": 0.3
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 0.1,
+                            "derivative": -0.3
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.15,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 0.1,
+                            "derivative": 0.3
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 0.1,
+                            "derivative": -0.3
+                          },
+                          {
+                            "location": 1.221,
+                            "value": 0.05,
+                            "derivative": -0.2
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": -0.35,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.221,
+                            "value": 0.025,
+                            "derivative": 0.2
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 0.075,
+                            "derivative": 0.3
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 0.075,
+                            "derivative": -0.3
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0.0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.15,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0.0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 0.075,
+                            "derivative": 0.3
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 0.075,
+                            "derivative": -0.3
+                          },
+                          {
+                            "location": 1.221,
+                            "value": 0.025,
+                            "derivative": -0.2
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.2,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.221,
+                            "value": 0.025,
+                            "derivative": 0.2
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 0.075,
+                            "derivative": 0.3
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 0.075,
+                            "derivative": -0.3
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0.0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.15,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0.0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 0.075,
+                            "derivative": 0.3
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 0.075,
+                            "derivative": -0.3
+                          },
+                          {
+                            "location": 1.221,
+                            "value": 0.025,
+                            "derivative": -0.2
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.7,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.00000004,
+                            "value": 0.035,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.045,
+                            "derivative": 0.18
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.065,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.045,
+                            "derivative": -0.18
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.035,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": 0.02,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": 0.02,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.035,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.045,
+                            "derivative": 0.18
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.065,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.045,
+                            "derivative": -0.18
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.035,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "location": 0.25,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/erosion",
+                  "points": [
+                    {
+                      "location": -0.85,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.5,
+                            "value": -0.03,
+                            "derivative": 1.15
+                          },
+                          {
+                            "location": -1.2,
+                            "value": 0.08,
+                            "derivative": 1.3
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.375,
+                            "derivative": 2.5
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.375,
+                            "derivative": -2.5
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.125,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.375,
+                            "derivative": 2.5
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.375,
+                            "derivative": -2.5
+                          },
+                          {
+                            "location": 1.2,
+                            "value": 0.08,
+                            "derivative": -1.3
+                          },
+                          {
+                            "location": 1.5,
+                            "value": -0.03,
+                            "derivative": -1.15
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": -0.7,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.5,
+                            "value": -0.03,
+                            "derivative": 1.15
+                          },
+                          {
+                            "location": -1.2,
+                            "value": 0.08,
+                            "derivative": 1.3
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.375,
+                            "derivative": 2.5
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.375,
+                            "derivative": -2.5
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.125,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.375,
+                            "derivative": 2.5
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.375,
+                            "derivative": -2.5
+                          },
+                          {
+                            "location": 1.2,
+                            "value": 0.08,
+                            "derivative": -1.3
+                          },
+                          {
+                            "location": 1.5,
+                            "value": -0.03,
+                            "derivative": -1.15
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": -0.4,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.576907360888868,
+                            "value": -0.030102416501945256,
+                            "derivative": 1.13364066
+                          },
+                          {
+                            "location": -1.2166667066666665,
+                            "value": 0.08181190746057143,
+                            "derivative": 1.1336407619691664
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.1,
+                            "derivative": 2.2
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.1,
+                            "derivative": -2.2
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.1,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.1,
+                            "derivative": 2.2
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.1,
+                            "derivative": -2.2
+                          },
+                          {
+                            "location": 1.2166667066666665,
+                            "value": 0.08181190746057143,
+                            "derivative": -1.1336407619691664
+                          },
+                          {
+                            "location": 1.576907360888868,
+                            "value": -0.030102416501945256,
+                            "derivative": -1.13364066
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": -0.1,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.5459844750094125,
+                            "value": 0.021,
+                            "derivative": 0.21000000000000002
+                          },
+                          {
+                            "location": -0.867,
+                            "value": 0.35,
+                            "derivative": 1.1
+                          },
+                          {
+                            "location": -0.667,
+                            "value": 0.42,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.467,
+                            "value": 0.35,
+                            "derivative": -1.1
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.1,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.466,
+                            "value": 0.35,
+                            "derivative": 1.1
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 0.42,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.866,
+                            "value": 0.35,
+                            "derivative": -1.1
+                          },
+                          {
+                            "location": 1.5459844750094125,
+                            "value": 0.021,
+                            "derivative": -0.21000000000000002
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.2,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.1,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.15,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.15,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.1,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.1,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.1,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.15,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.15,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.1,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.4,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.1,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.15,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.15,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.1,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.1,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.1,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.15,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.15,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.1,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.45,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          { "location": 0, "value": -0.1, "derivative": 0 },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.55,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          { "location": 0, "value": -0.1, "derivative": 0 },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.58,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.1,
+                            "derivative": -1.5
+                          },
+                          { "location": 0, "value": -0.1, "derivative": 1.5 },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.7,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.33333334,
+                            "value": -0.02,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.1333333733333333,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": 0.36
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": -0.36
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          { "location": 0, "value": -0.02, "derivative": 0 },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": 0.36
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": -0.36
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.33333334,
+                            "value": -0.02,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "location": 1,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "vast_vistas_otherview:overworld/terrain/erosion",
+                  "points": [
+                    {
+                      "location": -0.85,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.5,
+                            "value": -0.025,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.2,
+                            "value": 0.15,
+                            "derivative": 1.2
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.5,
+                            "derivative": 3
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.5,
+                            "derivative": -3
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": -1
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.105,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 1
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.5,
+                            "derivative": 3
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.5,
+                            "derivative": -3
+                          },
+                          {
+                            "location": 1.2,
+                            "value": 0.15,
+                            "derivative": -1.2
+                          },
+                          {
+                            "location": 1.5,
+                            "value": -0.025,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": -0.7,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.5,
+                            "value": -0.025,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.2,
+                            "value": 0.15,
+                            "derivative": 1.2
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.5,
+                            "derivative": 3
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.5,
+                            "derivative": -3
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": -1
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.105,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 1
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.5,
+                            "derivative": 3
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.5,
+                            "derivative": -3
+                          },
+                          {
+                            "location": 1.2,
+                            "value": 0.15,
+                            "derivative": -1.2
+                          },
+                          {
+                            "location": 1.5,
+                            "value": -0.025,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": -0.4,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.5,
+                            "value": -0.03,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.2,
+                            "value": 0.08,
+                            "derivative": 1.3
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.225,
+                            "derivative": 2.5
+                          },
+                          {
+                            "location": -0.666,
+                            "value": 1.225,
+                            "derivative": -2.5
+                          },
+                          {
+                            "location": -0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.125,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.065,
+                            "value": 0,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.225,
+                            "derivative": 2.5
+                          },
+                          {
+                            "location": 0.666,
+                            "value": 1.225,
+                            "derivative": -2.5
+                          },
+                          {
+                            "location": 1.2,
+                            "value": 0.08,
+                            "derivative": -1.3
+                          },
+                          {
+                            "location": 1.5,
+                            "value": -0.03,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": -0.1,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.33333334,
+                            "value": 0.03,
+                            "derivative": 0.299999982
+                          },
+                          {
+                            "location": -0.867,
+                            "value": 0.5,
+                            "derivative": 1.1
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.6,
+                            "derivative": 0.210000045
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.6,
+                            "derivative": -0.210000045
+                          },
+                          {
+                            "location": -0.467,
+                            "value": 0.4,
+                            "derivative": -1.4
+                          },
+                          {
+                            "location": -0.101,
+                            "value": 0.01,
+                            "derivative": -0.5
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.075,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.1,
+                            "value": 0.01,
+                            "derivative": 0.5
+                          },
+                          {
+                            "location": 0.466,
+                            "value": 0.4,
+                            "derivative": 1.4
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.6,
+                            "derivative": 0.210000045
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.6,
+                            "derivative": -0.210000045
+                          },
+                          {
+                            "location": 0.866,
+                            "value": 0.5,
+                            "derivative": -1.1
+                          },
+                          {
+                            "location": 1.33333334,
+                            "value": 0.03,
+                            "derivative": -0.299999982
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.2,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.1000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.1000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.4,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.1000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.1000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.45,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          { "location": 0, "value": -0.05, "derivative": 0 },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.55,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          { "location": 0, "value": -0.05, "derivative": 0 },
+                          {
+                            "location": 0.2000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.17,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.58,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.1000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.05,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.1000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "location": 0.7,
+                      "derivative": 0,
+                      "value": {
+                        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+                        "points": [
+                          {
+                            "location": -1.33333334,
+                            "value": -0.02,
+                            "derivative": 0.045
+                          },
+                          {
+                            "location": -1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": -0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": -0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": -0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": -0.1000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0,
+                            "value": -0.02,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.1000000266666666,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.33333335999999997,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 0.4666666933333333,
+                            "value": 0.03,
+                            "derivative": 0.12
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": 0.14700000000000002
+                          },
+                          {
+                            "location": 0.6666667,
+                            "value": 0.1,
+                            "derivative": -0.14700000000000002
+                          },
+                          {
+                            "location": 0.8666667066666666,
+                            "value": 0.03,
+                            "derivative": -0.12
+                          },
+                          {
+                            "location": 1.00000004,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.1333333733333333,
+                            "value": 0.01,
+                            "derivative": 0
+                          },
+                          {
+                            "location": 1.33333334,
+                            "value": -0.02,
+                            "derivative": -0.045
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
               }
-            }
+            ]
           }
         }
       },
       "argument2": {
-        "type": "minecraft:mul",
-        "argument1": {
-          "type": "minecraft:add",
-          "argument1": -0.5037500262260437,
-          "argument2": {
-            "type": "minecraft:spline",
-            "spline": {
-              "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/continents",
-              "points": [
-                {
-                  "location": -1.5,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
-                    "points": [
-                      {
-                        "location": -1,
-                        "derivative": 0,
-                        "value": 0.2
-                      },
-                      {
-                        "location": 1,
-                        "derivative": 0,
-                        "value": 0.33
-                      }
-                    ]
-                  },
-                  "derivative": -0.2
-                },
-                {
-                  "location": -1.065,
-                  "value": -0.011,
-                  "derivative": -1.6
-                },
-                {
-                  "location": -1.04,
-                  "derivative": 0,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
-                    "points": [
-                      {
-                        "location": -1,
-                        "derivative": 0,
-                        "value": -0.375
-                      },
-                      {
-                        "location": 1,
-                        "derivative": 0,
-                        "value": -0.3
-                      }
-                    ]
-                  }
-                },
-                {
-                  "location": -0.8,
-                  "derivative": 0,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
-                    "points": [
-                      {
-                        "location": -1,
-                        "derivative": 0,
-                        "value": -0.375
-                      },
-                      {
-                        "location": 1,
-                        "derivative": 0,
-                        "value": -0.3
-                      }
-                    ]
-                  }
-                },
-                {
-                  "location": -0.51,
-                  "derivative": 0,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
-                    "points": [
-                      {
-                        "location": -1,
-                        "derivative": 0,
-                        "value": -0.3
-                      },
-                      {
-                        "location": 1,
-                        "derivative": 0,
-                        "value": -0.25
-                      }
-                    ]
-                  }
-                },
-                {
-                  "location": -0.44,
-                  "derivative": 0,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
-                    "points": [
-                      {
-                        "location": -1,
-                        "derivative": 0,
-                        "value": -0.3
-                      },
-                      {
-                        "location": 1,
-                        "derivative": 0,
-                        "value": -0.25
-                      }
-                    ]
-                  }
-                },
-                {
-                  "location": -0.21,
-                  "derivative": 0,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
-                    "points": [
-                      {
-                        "location": -1,
-                        "derivative": 0,
-                        "value": -0.2222
-                      },
-                      {
-                        "location": 1,
-                        "derivative": 0,
-                        "value": -0.15
-                      }
-                    ]
-                  }
-                },
-                {
-                  "location": -0.155,
-                  "derivative": 0,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/erosion",
-                    "points": [
-                      {
-                        "location": -0.4,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.221,
-                              "value": 0.05,
-                              "derivative": 0.2
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 0.1,
-                              "derivative": 0.3
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 0.1,
-                              "derivative": -0.3
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.15,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 0.1,
-                              "derivative": 0.3
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 0.1,
-                              "derivative": -0.3
-                            },
-                            {
-                              "location": 1.221,
-                              "value": 0.05,
-                              "derivative": -0.2
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": -0.35,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.221,
-                              "value": 0.025,
-                              "derivative": 0.2
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 0.075,
-                              "derivative": 0.3
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 0.075,
-                              "derivative": -0.3
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0.0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.15,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0.0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 0.075,
-                              "derivative": 0.3
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 0.075,
-                              "derivative": -0.3
-                            },
-                            {
-                              "location": 1.221,
-                              "value": 0.025,
-                              "derivative": -0.2
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.2,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.221,
-                              "value": 0.025,
-                              "derivative": 0.2
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 0.075,
-                              "derivative": 0.3
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 0.075,
-                              "derivative": -0.3
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0.0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.15,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0.0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 0.075,
-                              "derivative": 0.3
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 0.075,
-                              "derivative": -0.3
-                            },
-                            {
-                              "location": 1.221,
-                              "value": 0.025,
-                              "derivative": -0.2
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.7,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.00000004,
-                              "value": 0.035,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.045,
-                              "derivative": 0.18
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.065,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.045,
-                              "derivative": -0.18
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.035,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": 0.02,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": 0.02,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.035,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.045,
-                              "derivative": 0.18
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.065,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.045,
-                              "derivative": -0.18
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.035,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "location": 0.25,
-                  "derivative": 0,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/erosion",
-                    "points": [
-                      {
-                        "location": -0.85,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.5,
-                              "value": -0.03,
-                              "derivative": 1.15
-                            },
-                            {
-                              "location": -1.2,
-                              "value": 0.08,
-                              "derivative": 1.3
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.375,
-                              "derivative": 2.5
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.375,
-                              "derivative": -2.5
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.125,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.375,
-                              "derivative": 2.5
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.375,
-                              "derivative": -2.5
-                            },
-                            {
-                              "location": 1.2,
-                              "value": 0.08,
-                              "derivative": -1.3
-                            },
-                            {
-                              "location": 1.5,
-                              "value": -0.03,
-                              "derivative": -1.15
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": -0.7,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.5,
-                              "value": -0.03,
-                              "derivative": 1.15
-                            },
-                            {
-                              "location": -1.2,
-                              "value": 0.08,
-                              "derivative": 1.3
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.375,
-                              "derivative": 2.5
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.375,
-                              "derivative": -2.5
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.125,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.375,
-                              "derivative": 2.5
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.375,
-                              "derivative": -2.5
-                            },
-                            {
-                              "location": 1.2,
-                              "value": 0.08,
-                              "derivative": -1.3
-                            },
-                            {
-                              "location": 1.5,
-                              "value": -0.03,
-                              "derivative": -1.15
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": -0.4,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.576907360888868,
-                              "value": -0.030102416501945256,
-                              "derivative": 1.13364066
-                            },
-                            {
-                              "location": -1.2166667066666665,
-                              "value": 0.08181190746057143,
-                              "derivative": 1.1336407619691664
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.1,
-                              "derivative": 2.2
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.1,
-                              "derivative": -2.2
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.1,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.1,
-                              "derivative": 2.2
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.1,
-                              "derivative": -2.2
-                            },
-                            {
-                              "location": 1.2166667066666665,
-                              "value": 0.08181190746057143,
-                              "derivative": -1.1336407619691664
-                            },
-                            {
-                              "location": 1.576907360888868,
-                              "value": -0.030102416501945256,
-                              "derivative": -1.13364066
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": -0.1,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.5459844750094125,
-                              "value": 0.021,
-                              "derivative": 0.21000000000000002
-                            },
-                            {
-                              "location": -0.867,
-                              "value": 0.35,
-                              "derivative": 1.1
-                            },
-                            {
-                              "location": -0.667,
-                              "value": 0.42,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.467,
-                              "value": 0.35,
-                              "derivative": -1.1
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.1,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.466,
-                              "value": 0.35,
-                              "derivative": 1.1
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 0.42,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.866,
-                              "value": 0.35,
-                              "derivative": -1.1
-                            },
-                            {
-                              "location": 1.5459844750094125,
-                              "value": 0.021,
-                              "derivative": -0.21000000000000002
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.2,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.1,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.15,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.15,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.1,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.1,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.1,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.15,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.15,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.1,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.4,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.1,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.15,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.15,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.1,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.1,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.1,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.15,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.15,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.1,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.45,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            { "location": 0, "value": -0.1, "derivative": 0 },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.55,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            { "location": 0, "value": -0.1, "derivative": 0 },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.58,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.1,
-                              "derivative": -1.5
-                            },
-                            { "location": 0, "value": -0.1, "derivative": 1.5 },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.7,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.33333334,
-                              "value": -0.02,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.1333333733333333,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": 0.36
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": -0.36
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            { "location": 0, "value": -0.02, "derivative": 0 },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": 0.36
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": -0.36
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.33333334,
-                              "value": -0.02,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "location": 1,
-                  "derivative": 0,
-                  "value": {
-                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/erosion",
-                    "points": [
-                      {
-                        "location": -0.85,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.5,
-                              "value": -0.025,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.2,
-                              "value": 0.15,
-                              "derivative": 1.2
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.5,
-                              "derivative": 3
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.5,
-                              "derivative": -3
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": -1
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.105,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 1
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.5,
-                              "derivative": 3
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.5,
-                              "derivative": -3
-                            },
-                            {
-                              "location": 1.2,
-                              "value": 0.15,
-                              "derivative": -1.2
-                            },
-                            {
-                              "location": 1.5,
-                              "value": -0.025,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": -0.7,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.5,
-                              "value": -0.025,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.2,
-                              "value": 0.15,
-                              "derivative": 1.2
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.5,
-                              "derivative": 3
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.5,
-                              "derivative": -3
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": -1
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.105,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 1
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.5,
-                              "derivative": 3
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.5,
-                              "derivative": -3
-                            },
-                            {
-                              "location": 1.2,
-                              "value": 0.15,
-                              "derivative": -1.2
-                            },
-                            {
-                              "location": 1.5,
-                              "value": -0.025,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": -0.4,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.5,
-                              "value": -0.03,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.2,
-                              "value": 0.08,
-                              "derivative": 1.3
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.225,
-                              "derivative": 2.5
-                            },
-                            {
-                              "location": -0.666,
-                              "value": 1.225,
-                              "derivative": -2.5
-                            },
-                            {
-                              "location": -0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.125,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.065,
-                              "value": 0,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.225,
-                              "derivative": 2.5
-                            },
-                            {
-                              "location": 0.666,
-                              "value": 1.225,
-                              "derivative": -2.5
-                            },
-                            {
-                              "location": 1.2,
-                              "value": 0.08,
-                              "derivative": -1.3
-                            },
-                            {
-                              "location": 1.5,
-                              "value": -0.03,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": -0.1,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.33333334,
-                              "value": 0.03,
-                              "derivative": 0.299999982
-                            },
-                            {
-                              "location": -0.867,
-                              "value": 0.5,
-                              "derivative": 1.1
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.6,
-                              "derivative": 0.210000045
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.6,
-                              "derivative": -0.210000045
-                            },
-                            {
-                              "location": -0.467,
-                              "value": 0.4,
-                              "derivative": -1.4
-                            },
-                            {
-                              "location": -0.101,
-                              "value": 0.01,
-                              "derivative": -0.5
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.075,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.1,
-                              "value": 0.01,
-                              "derivative": 0.5
-                            },
-                            {
-                              "location": 0.466,
-                              "value": 0.4,
-                              "derivative": 1.4
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.6,
-                              "derivative": 0.210000045
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.6,
-                              "derivative": -0.210000045
-                            },
-                            {
-                              "location": 0.866,
-                              "value": 0.5,
-                              "derivative": -1.1
-                            },
-                            {
-                              "location": 1.33333334,
-                              "value": 0.03,
-                              "derivative": -0.299999982
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.2,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.1000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.1000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.4,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.1000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.1000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.45,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            { "location": 0, "value": -0.05, "derivative": 0 },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.55,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            { "location": 0, "value": -0.05, "derivative": 0 },
-                            {
-                              "location": 0.2000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.17,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.58,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.1000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.05,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.1000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "location": 0.7,
-                        "derivative": 0,
-                        "value": {
-                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
-                          "points": [
-                            {
-                              "location": -1.33333334,
-                              "value": -0.02,
-                              "derivative": 0.045
-                            },
-                            {
-                              "location": -1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": -0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": -0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": -0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": -0.1000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0,
-                              "value": -0.02,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.1000000266666666,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.33333335999999997,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 0.4666666933333333,
-                              "value": 0.03,
-                              "derivative": 0.12
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": 0.14700000000000002
-                            },
-                            {
-                              "location": 0.6666667,
-                              "value": 0.1,
-                              "derivative": -0.14700000000000002
-                            },
-                            {
-                              "location": 0.8666667066666666,
-                              "value": 0.03,
-                              "derivative": -0.12
-                            },
-                            {
-                              "location": 1.00000004,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.1333333733333333,
-                              "value": 0.01,
-                              "derivative": 0
-                            },
-                            {
-                              "location": 1.33333334,
-                              "value": -0.02,
-                              "derivative": -0.045
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "argument2": {
-          "type": "minecraft:cache_once",
-          "argument": {
-            "type": "minecraft:blend_alpha"
-          }
+        "type": "minecraft:cache_once",
+        "argument": {
+          "type": "minecraft:blend_alpha"
         }
       }
     }
