@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": -64,
+    "to_y": 320,
+    "from_value": 1.5,
+    "to_value": -1.5
+  },
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": "vast_vistas_otherview:overworld/terrain/offset",
+    "argument2": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:quarter_negative",
+        "argument": "vast_vistas_otherview:overworld/terrain/base_2d_noise"
+      },
+      "argument2": "vast_vistas_otherview:overworld/terrain/dunes/influence"
+    }
+  }
+}

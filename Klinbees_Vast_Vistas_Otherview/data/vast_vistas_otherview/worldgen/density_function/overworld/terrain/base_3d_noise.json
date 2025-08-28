@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": 0.25,
+    "argument2": {
+      "type": "minecraft:square",
+      "argument": {
+        "type": "minecraft:add",
+        "argument1": 0.75,
+        "argument2": {
+          "type": "minecraft:quarter_negative",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "vast_vistas_otherview:overworld/base_3d_noise",
+            "xz_scale": 4.25,
+            "y_scale": 0.25
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:end_islands"
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": 0.333,
+    "argument2": "vast_vistas_otherview:end/base_3d_noise"
+  }
+}

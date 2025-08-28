@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:add",
+  "argument1": 0.25,
+  "argument2": "vast_vistas_otherview:overworld/terrain/caves/noise_cheese"
+}

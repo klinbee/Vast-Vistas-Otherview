@@ -1,0 +1,21 @@
+{
+  "pack": {
+    "description": [
+      {
+        "color": "#96f116",
+        "text": "Vast Vistas: Otherview"
+      },
+      "\n",
+      {
+        "color": "#AAAAAA",
+        "text": "Made by "
+      },
+      {
+        "color": "#ffbbbb",
+        "text": "Klinbee"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": [15, 999]
+  }
+}

@@ -1,0 +1,1 @@
+When modifying these, don't forget to modify the scale of the ones in `overworld/biomes` too!!

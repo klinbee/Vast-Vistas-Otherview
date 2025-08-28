@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "vast_vistas_otherview:overworld/ridges/noise_normal_smooth",
+        "points": [
+          {
+            "location": -0.1,
+            "value": -0.05,
+            "derivative": 0.947368
+          },
+          {
+            "location": 0.07,
+            "value": 0.05,
+            "derivative": 0.947368
+          }
+        ],
+        "note": "0.947368 comes from `what is the slope of a line that goes through (1,1) and (loc,val)?`"
+      }
+    }
+  }
+}

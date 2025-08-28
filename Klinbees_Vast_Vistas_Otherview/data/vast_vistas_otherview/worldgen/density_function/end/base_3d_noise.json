@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:noise",
+  "noise": "vast_vistas_otherview:end/base_3d_noise",
+  "xz_scale": 2.25,
+  "y_scale": 2.875
+}

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:squeeze",
+  "argument": {
+    "type": "minecraft:mul",
+    "argument1": 0.64,
+    "argument2": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:blend_density",
+        "argument": {
+          "type": "minecraft:add",
+          "argument1": 2.5,
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:y_clamped_gradient",
+              "from_value": 0,
+              "from_y": -8,
+              "to_value": 1,
+              "to_y": 32
+            },
+            "argument2": {
+              "type": "minecraft:add",
+              "argument1": -2.5,
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": 0.9375,
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "minecraft:y_clamped_gradient",
+                    "from_value": 1,
+                    "from_y": 104,
+                    "to_value": 0,
+                    "to_y": 128
+                  },
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": -0.9975,
+                    "argument2": "vast_vistas_otherview:nether/terrain/base_3d_noise"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

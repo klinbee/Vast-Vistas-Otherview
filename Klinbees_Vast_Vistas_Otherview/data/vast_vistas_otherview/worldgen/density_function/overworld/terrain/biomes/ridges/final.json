@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges/noise_large",
+    "points": [
+      {
+        "location": -0.25,
+        "derivative": 0,
+        "value": {
+          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges/noise_normal_jagged",
+          "points": [
+            {
+              "location": -1,
+              "derivative": 0.45,
+              "value": -1
+            },
+            {
+              "location": 1,
+              "derivative": 0.45,
+              "value": -0.1
+            }
+          ]
+        }
+      },
+      {
+        "location": 0,
+        "derivative": 2.5,
+        "value": 0
+      },
+      {
+        "location": 0.25,
+        "derivative": 0,
+        "value": {
+          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges/noise_normal_jagged",
+          "points": [
+            {
+              "location": -1,
+              "derivative": 0.45,
+              "value": 0.1
+            },
+            {
+              "location": 1,
+              "derivative": 0.45,
+              "value": 1
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

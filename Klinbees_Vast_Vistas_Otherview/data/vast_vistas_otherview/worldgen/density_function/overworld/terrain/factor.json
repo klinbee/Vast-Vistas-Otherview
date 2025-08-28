@@ -1,0 +1,331 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/continents",
+        "points": [
+          {
+            "location": -0.19,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "derivative": 0,
+            "location": -0.15,
+            "value": {
+              "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/erosion",
+              "points": [
+                {
+                  "location": 0.42,
+                  "derivative": 0,
+                  "value": 0
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.45,
+                  "value": {
+                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -0.9,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.69,
+                        "value": {
+                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.1,
+                              "value": 1.5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.55,
+                  "value": {
+                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -0.9,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.69,
+                        "value": {
+                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.1,
+                              "value": 1.5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "location": 0.58,
+                  "derivative": 0,
+                  "value": 0
+                }
+              ]
+            }
+          },
+          {
+            "derivative": 0,
+            "location": -0.1,
+            "value": {
+              "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/erosion",
+              "points": [
+                {
+                  "derivative": 0,
+                  "location": 0.42,
+                  "value": 0
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.45,
+                  "value": {
+                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -0.9,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.69,
+                        "value": {
+                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.1,
+                              "value": 1.5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.55,
+                  "value": {
+                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -0.9,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.69,
+                        "value": {
+                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.1,
+                              "value": 1.5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.58,
+                  "value": 0
+                }
+              ]
+            }
+          },
+          {
+            "derivative": 0,
+            "location": 0.03,
+            "value": {
+              "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/erosion",
+              "points": [
+                {
+                  "derivative": 0,
+                  "location": 0.42,
+                  "value": 0
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.45,
+                  "value": {
+                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -0.9,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.69,
+                        "value": {
+                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.1,
+                              "value": 1.5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.55,
+                  "value": {
+                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -0.9,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.69,
+                        "value": {
+                          "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges",
+                          "points": [
+                            {
+                              "derivative": 0,
+                              "location": 0,
+                              "value": 0
+                            },
+                            {
+                              "derivative": 0,
+                              "location": 0.1,
+                              "value": 1.5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.58,
+                  "value": 0
+                }
+              ]
+            }
+          },
+          {
+            "derivative": 0,
+            "location": 0.06,
+            "value": {
+              "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/erosion",
+              "points": [
+                {
+                  "derivative": 0,
+                  "location": 0.42,
+                  "value": 0
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.45,
+                  "value": {
+                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -0.7,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.15,
+                        "value": 1.5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.55,
+                  "value": {
+                    "coordinate": "vast_vistas_otherview:overworld/terrain/biomes/ridges_folded",
+                    "points": [
+                      {
+                        "derivative": 0,
+                        "location": -0.7,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0,
+                        "location": -0.15,
+                        "value": 1.5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "derivative": 0,
+                  "location": 0.58,
+                  "value": 0
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

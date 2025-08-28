@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:shifted_noise",
+      "noise": "vast_vistas_otherview:overworld/ridge",
+      "xz_scale": 0.04,
+      "y_scale": 0,
+      "shift_x": "vast_vistas_otherview:shift_x_smooth",
+      "shift_y": 0,
+      "shift_z": "vast_vistas_otherview:shift_z_smooth"
+    }
+  }
+}
