@@ -1,13 +1,15 @@
 {
   "aquifers_enabled": false,
+  "disable_mob_generation": true,
+  "legacy_random_source": true,
+  "ore_veins_enabled": false,
   "default_block": {
     "Name": "minecraft:end_stone"
   },
   "default_fluid": {
     "Name": "minecraft:air"
   },
-  "disable_mob_generation": true,
-  "legacy_random_source": true,
+  "sea_level": 0,
   "noise": {
     "height": 128,
     "min_y": 0,
@@ -31,8 +33,6 @@
     "vein_ridged": "vast_vistas_otherview:end/vein/ridged",
     "vein_toggle": "vast_vistas_otherview:end/vein/toggle"
   },
-  "ore_veins_enabled": false,
-  "sea_level": 0,
   "spawn_target": [],
   "surface_rule": {
     "type": "minecraft:block",
