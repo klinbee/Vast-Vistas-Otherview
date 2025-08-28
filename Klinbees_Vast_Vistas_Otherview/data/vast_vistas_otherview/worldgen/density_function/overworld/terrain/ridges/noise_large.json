@@ -5,7 +5,7 @@
     "argument": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": "vast_vistas_otherview:overworld/terrain/ridges/noise_normal_smooth",
+        "coordinate": "vast_vistas_otherview:overworld/ridges/noise_normal_smooth",
         "": "unfortunately, this is not the intended spline, but it is what we ended up with during testing...",
         "points": [
           {

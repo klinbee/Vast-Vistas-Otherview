@@ -1,4 +1,5 @@
 {
+  "": "Removing carver caves",
   "type": "minecraft:cave",
   "config": {
     "probability": 0,

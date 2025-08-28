@@ -1,4 +1,5 @@
 {
+  "": "Noise manipulation to make placement based on one noise",
   "amplitudes": [1e300],
   "firstOctave": -3
 }

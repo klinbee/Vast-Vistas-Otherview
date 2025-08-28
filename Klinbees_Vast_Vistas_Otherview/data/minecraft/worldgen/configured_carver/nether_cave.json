@@ -1,13 +1,11 @@
 {
-  "type": "minecraft:nether_cave",
+  "": "Removing carver caves",
+  "type": "minecraft:cave",
   "config": {
     "probability": 0,
     "y": {
-      "type": "minecraft:uniform",
-      "min_inclusive": {
-        "absolute": 0
-      },
-      "max_inclusive": {
+      "type": "minecraft:constant",
+      "value": {
         "absolute": 0
       }
     },

@@ -4,7 +4,7 @@
     "type": "minecraft:cache_2d",
     "argument": {
       "type": "minecraft:noise",
-      "noise": "vast_vistas_otherview:overworld/base_3d_noise",
+      "noise": "vast_vistas_otherview:overworld/base_2d_noise",
       "xz_scale": 3.25,
       "y_scale": 0
     }
