@@ -43,7 +43,7 @@
                       "argument": {
                         "type": "minecraft:min",
                         "argument1": "vast_vistas_otherview:overworld_large_biomes/terrain/sloped_cheese",
-                        "argument2": "vast_vistas_otherview:overworld/terrain/caves/final"
+                        "argument2": "vast_vistas_otherview:overworld_large_biomes/terrain/caves/final"
                       }
                     }
                   }
