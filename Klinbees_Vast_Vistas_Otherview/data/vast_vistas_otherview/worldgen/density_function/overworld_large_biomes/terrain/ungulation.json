@@ -1,0 +1,81 @@
+{
+  "": "Influence spline like factor and jaggedness for dunes",
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "vast_vistas_otherview:overworld_large_biomes/continents",
+    "points": [
+      {
+        "location": -1.065,
+        "derivative": 0,
+        "value": 0.06
+      },
+      {
+        "location": -1.04,
+        "derivative": 0,
+        "value": 0.1125
+      },
+      {
+        "location": -0.205,
+        "derivative": 0,
+        "value": 0.1125
+      },
+      {
+        "location": -0.165,
+        "derivative": 0,
+        "value": {
+          "coordinate": "vast_vistas_otherview:overworld/terrain/ridges",
+          "points": [
+            {
+              "location": -0.075,
+              "derivative": 0,
+              "value": {
+                "coordinate": "vast_vistas_otherview:overworld_large_biomes/temperature",
+                "points": [
+                  {
+                    "location": 0.545,
+                    "derivative": 0,
+                    "value": 0.06
+                  },
+                  {
+                    "location": 0.55,
+                    "derivative": 0,
+                    "value": 0.0825
+                  }
+                ]
+              }
+            },
+            {
+              "location": -0.05,
+              "derivative": 0,
+              "value": 0.06
+            },
+            {
+              "location": 0.05,
+              "derivative": 0,
+              "value": 0.06
+            },
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": {
+                "coordinate": "vast_vistas_otherview:overworld_large_biomes/temperature",
+                "points": [
+                  {
+                    "location": 0.545,
+                    "derivative": 0,
+                    "value": 0.06
+                  },
+                  {
+                    "location": 0.55,
+                    "derivative": 0,
+                    "value": 0.0825
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

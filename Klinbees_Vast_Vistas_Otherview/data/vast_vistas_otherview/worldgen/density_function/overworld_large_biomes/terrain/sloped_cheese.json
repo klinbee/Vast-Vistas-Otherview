@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:interpolated",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": "vast_vistas_otherview:overworld_large_biomes/depth",
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "vast_vistas_otherview:overworld_large_biomes/terrain/dunes",
+        "argument2": "vast_vistas_otherview:overworld_large_biomes/terrain/peaks"
+      }
+    },
+    "argument2": "vast_vistas_otherview:overworld_large_biomes/terrain/windswept"
+  }
+}

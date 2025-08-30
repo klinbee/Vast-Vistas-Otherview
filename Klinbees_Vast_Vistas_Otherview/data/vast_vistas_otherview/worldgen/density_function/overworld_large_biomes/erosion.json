@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": "vast_vistas_otherview:overworld_large_biomes/erosion/final"
+  }
+}

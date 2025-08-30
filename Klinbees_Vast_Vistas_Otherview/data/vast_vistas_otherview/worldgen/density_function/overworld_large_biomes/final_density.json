@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:squeeze",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": 0.64,
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": 0.1171875,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": -64,
+            "to_y": -40,
+            "from_value": 0,
+            "to_value": 1
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": -0.1171875,
+            "argument2": {
+              "type": "minecraft:add",
+              "argument1": -0.078125,
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_y": 240,
+                  "to_y": 256,
+                  "from_value": 1,
+                  "to_value": 0
+                },
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": 0.078125,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": 4,
+                    "argument2": {
+                      "type": "minecraft:quarter_negative",
+                      "argument": {
+                        "type": "minecraft:min",
+                        "argument1": "vast_vistas_otherview:overworld_large_biomes/terrain/sloped_cheese",
+                        "argument2": "vast_vistas_otherview:overworld/terrain/caves/final"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

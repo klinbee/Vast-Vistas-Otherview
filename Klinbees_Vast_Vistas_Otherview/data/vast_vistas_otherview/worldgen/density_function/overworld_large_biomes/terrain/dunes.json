@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:mul",
+  "argument1": "vast_vistas_otherview:overworld_large_biomes/terrain/ungulation",
+  "argument2": {
+    "type": "minecraft:quarter_negative",
+    "argument": "vast_vistas_otherview:overworld/terrain/base_2d_noise"
+  }
+}
