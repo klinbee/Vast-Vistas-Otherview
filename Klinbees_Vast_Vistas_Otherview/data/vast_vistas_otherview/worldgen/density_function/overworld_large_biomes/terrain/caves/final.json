@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": {
+      "type": "minecraft:interpolated",
+      "argument": "vast_vistas_otherview:overworld_large_biomes/depth"
+    },
+    "points": [
+      {
+        "location": 0.35,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0.6,
+        "derivative": 0,
+        "value": {
+          "coordinate": "vast_vistas_otherview:overworld/terrain/caves/cheese",
+          "points": [
+            {
+              "location": 0,
+              "derivative": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

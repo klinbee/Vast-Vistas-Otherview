@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:noise",
+  "noise": "vast_vistas_otherview:nether_large_biomes/vegetation",
+  "xz_scale": 0.25,
+  "y_scale": 0
+}
