@@ -1,8 +1,9 @@
 {
+  "sea_level": 32,
   "aquifers_enabled": false,
   "disable_mob_generation": false,
-  "legacy_random_source": false,
   "ore_veins_enabled": false,
+  "legacy_random_source": false,
   "default_block": {
     "Name": "minecraft:netherrack"
   },
@@ -12,7 +13,6 @@
       "level": "0"
     }
   },
-  "sea_level": 32,
   "noise": {
     "height": 128,
     "min_y": 0,

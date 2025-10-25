@@ -8,7 +8,7 @@
           "type": "minecraft:multi_noise",
           "preset": "minecraft:overworld"
         },
-        "settings": "vast_vistas_otherview:overworld_large_biomes"
+        "settings": "vast_vistas_otherview:overworld"
       }
     },
     "minecraft:the_end": {
@@ -29,7 +29,7 @@
           "type": "minecraft:multi_noise",
           "preset": "minecraft:nether"
         },
-        "settings": "vast_vistas_otherview:nether_large_biomes"
+        "settings": "vast_vistas_otherview:nether"
       }
     }
   }

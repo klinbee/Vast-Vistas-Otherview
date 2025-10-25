@@ -1,15 +1,15 @@
 {
+  "sea_level": 0,
   "aquifers_enabled": false,
   "disable_mob_generation": true,
-  "legacy_random_source": true,
   "ore_veins_enabled": false,
+  "legacy_random_source": false,
   "default_block": {
     "Name": "minecraft:end_stone"
   },
   "default_fluid": {
     "Name": "minecraft:air"
   },
-  "sea_level": 0,
   "noise": {
     "height": 128,
     "min_y": 0,
@@ -35,9 +35,7 @@
   },
   "spawn_target": [],
   "surface_rule": {
-    "type": "minecraft:block",
-    "result_state": {
-      "Name": "minecraft:end_stone"
-    }
+    "type": "minecraft:sequence",
+    "sequence": []
   }
 }
