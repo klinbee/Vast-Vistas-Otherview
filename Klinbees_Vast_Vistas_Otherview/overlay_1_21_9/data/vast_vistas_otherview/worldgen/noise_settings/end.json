@@ -1,0 +1,41 @@
+{
+  "sea_level": 0,
+  "aquifers_enabled": false,
+  "disable_mob_generation": true,
+  "ore_veins_enabled": false,
+  "legacy_random_source": false,
+  "default_block": {
+    "Name": "minecraft:end_stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:air"
+  },
+  "noise": {
+    "height": 128,
+    "min_y": 0,
+    "size_horizontal": 2,
+    "size_vertical": 1
+  },
+  "noise_router": {
+    "barrier": "vast_vistas_otherview:end/aquifer/barrier",
+    "fluid_level_floodedness": "vast_vistas_otherview:end/aquifer/fluid_level_floodedness",
+    "fluid_level_spread": "vast_vistas_otherview:end/aquifer/fluid_level_spread",
+    "lava": "vast_vistas_otherview:end/aquifer/lava",
+    "temperature": "vast_vistas_otherview:end/temperature",
+    "vegetation": "vast_vistas_otherview:end/vegetation",
+    "continents": "vast_vistas_otherview:end/continents",
+    "erosion": "vast_vistas_otherview:end/erosion",
+    "depth": "vast_vistas_otherview:end/depth",
+    "ridges": "vast_vistas_otherview:end/ridges",
+    "final_density": "vast_vistas_otherview:end/final_density",
+    "preliminary_surface_level": "vast_vistas_otherview:end/preliminary_surface_level",
+    "vein_gap": "vast_vistas_otherview:end/vein/gap",
+    "vein_ridged": "vast_vistas_otherview:end/vein/ridged",
+    "vein_toggle": "vast_vistas_otherview:end/vein/toggle"
+  },
+  "spawn_target": [],
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": []
+  }
+}

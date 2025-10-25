@@ -30,8 +30,8 @@
     "erosion": "vast_vistas_otherview:overworld_large_biomes/erosion",
     "depth": "vast_vistas_otherview:overworld_large_biomes/depth",
     "ridges": "vast_vistas_otherview:overworld/ridges",
-    "initial_density_without_jaggedness": "vast_vistas_otherview:overworld_large_biomes/initial_density_without_jaggedness",
     "final_density": "vast_vistas_otherview:overworld_large_biomes/final_density",
+    "preliminary_surface_level": "vast_vistas_otherview:overworld_large_biomes/preliminary_surface_level",
     "vein_gap": "vast_vistas_otherview:overworld/vein/gap",
     "vein_ridged": "vast_vistas_otherview:overworld/vein/ridged",
     "vein_toggle": "vast_vistas_otherview:overworld/vein/toggle"
